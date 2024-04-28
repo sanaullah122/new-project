@@ -1,0 +1,79 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./images/house1.jpg);
+    background-size:cover;
+   
+}
+
+.nav{
+    position: relative;
+    float : right; 
+    margin-right: 50px;
+}
+
+.nav a{
+    color: #fff;
+    padding: 10px;
+    margin : 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.nav a:hover{
+    border-bottom: 3px solid #1c6316;
+    transition: 0.5s;
+}
+
+header{
+    position: relative;
+}
+.top{
+    position : relative;
+    top : 25px;
+    left: 70px;
+    font-size: 28px;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main{
+    margin-top: 200px;
+    text-align: center;
+   
+}
+
+.heading{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    line-height: 100px;
+}
+
+pre{
+    color: hsl(0 0% 100%);
+    text-transform: capitalize;
+}
+
+.buttons{
+    text-transform: uppercase;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 10px;
+    border-radius: 20px;
+    border-color: #1D443D;
+}
+
+.buttons:hover{
+    transition: 0.5s;
+    background-color:#1D443D ;
+
+}
